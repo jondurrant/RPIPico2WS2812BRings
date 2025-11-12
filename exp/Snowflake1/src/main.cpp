@@ -83,6 +83,7 @@ void snowflake(uint32_t c) {
 
 
 
+
 int main(){
 
 	stdio_init_all();
@@ -106,12 +107,24 @@ int main(){
 	sleep_ms(2000);
 
 
+
+	uint32_t colours[] = {
+			0x505050,
+			0x5050A0,
+			0x705050,
+			0x507050,
+			0x0202A0
+	};
+
+
 	for (;;){
-		snowflake(0x505050);
-		drawFrameBuffer();
-		for (int i=0; i < 100; i++){
-			ledStrip.show();
-			sleep_ms(20);
+		for (int c = 0; c < 5; c++){
+			snowflake(colours[c]);
+			drawFrameBuffer();
+			for (int i=0; i < 100; i++){
+				ledStrip.show();
+				sleep_ms(20);
+			}
 		}
 	}
 
