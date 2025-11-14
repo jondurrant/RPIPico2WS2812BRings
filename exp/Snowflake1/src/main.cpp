@@ -13,7 +13,7 @@
 
 #include <PicoLed.hpp>
 #include <VirtualStrip.hpp>
-#include "../../Snowflake1/src/mapping.h"
+#include "mapping.h"
 
 
 //#define LEDS_PIN 18
