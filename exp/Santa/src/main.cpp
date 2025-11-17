@@ -1,9 +1,6 @@
 /*
  * main.cpp
- * Drive 12 WB2812B on GP15
- * Produce a chaser pattern
- *
- *  Created on: 15 Jun 2021
+ * Drive  WB2812B
  *      Author: jondurrant
  */
 
