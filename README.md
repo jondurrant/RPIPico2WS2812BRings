@@ -6,6 +6,8 @@ I've connected them to GPIO PIN 19 via a logic level shifter. All of the example
 
 More on this on my YouTube channe [DrJonEA](https://youtube.com/@drjonea).
 
+For a guide on cloning and building this and other of my repos see the [guide](https://drjonea.co.uk/2025/12/15/building-my-projects-from-repo/) on my blog.
+
 ## Examples
 ### Animations
 A collection of animations each one running for 10 seconds
